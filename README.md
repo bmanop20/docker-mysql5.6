@@ -13,21 +13,21 @@
                      docker-engine
    ```
 
-   1. Installation methods
+   Installation methods
 
-      ```bash
-      yum install -y yum-utils
-      ```
+   ```bash
+   yum install -y yum-utils
+   ```
 
-      ```bash
-      yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-      ```
+   ```bash
+   yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+   ```
 2. Install Docker Engine
 
    ```bash
    yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
    ```
-3. Start Docker 
+3. Start Docker
 
    ```bash
    systemctl start docker
