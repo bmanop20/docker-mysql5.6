@@ -36,7 +36,7 @@
    ```bash
    systemctl enable docker
    ```
-4. Start mysql5.6
+4. Start mysql5.6 (upload config file to /root/my.cnf)
 
    ```bash
    docker run -dit --name mysql5.6 \
